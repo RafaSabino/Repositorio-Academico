@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formas com CSS</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .quadrado {
+            width: 100px;
+            height: 100px;
+            background-color: #f5f5;
+        }
+        .retangulo {
+            width: 200px;
+            height: 100px;
+            background-color: #f5f5;
+        }
+
+        .circulo {
+            width: 100px;
+            height: 100px;
+            background-color: #f5f5;
+            border-radius: 50%;
+        }
+        .triangulo {
+            width: 0px;
+            height: 0px;
+            border-bottom: 100px solid #f5f5;
+            border-left: 50px solid transparent;
+            border-right: 50px solid transparent;
+        }
+        .trapezio {
+            width: 200px;
+            height: 0px;
+            border-bottom: 100px solid #f5f5;
+            border-left: 50px solid transparent;
+            border-right: 50px solid transparent;
+        }
+        .paralelogramo {
+            width: 200px;
+            height: 100px;
+            background-color: #f5f5;
+            transform: skewX(-20deg);
+            margin-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <hr>
+    <h2>1 - Quadrado</h2>
+    <div class="quadrado"></div>
+
+    <hr>
+    <h2>2 - Retângulo</h2>
+    <div class="retangulo"></div>
+
+    <hr>
+    <h2>3 - Círculo</h2>
+    <div class="circulo"></div>
+    
+    <hr>
+    <h2>4 - Triângulo</h2>
+    <div class="triangulo"></div>
+
+    <hr>
+    <h2>5 - Trapézio</h2>
+    <div class="trapezio"></div>
+
+    <hr>
+    <h2>6 - Paralelogramo</h2>
+    <div class="paralelogramo"></div>
+
+
+</body>
+</html>
